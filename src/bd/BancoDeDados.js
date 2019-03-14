@@ -1,12 +1,12 @@
 const PRODUTOS = [
-    {nome: 'Notebook', preco: 2500, imagem: "https://images-americanas.b2w.io/produtos/01/00/item/133775/9/133775934_1GG.jpg"},
-    {nome: 'Fritadeira', preco: 240, imagem: "https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/127878/8/127878831_1GG.png"},
-    {nome: 'Fonte', preco: 84, imagem: "https://images-americanas.b2w.io/produtos/01/00/sku/8579/3/8579390_1GG.jpg"},
-    {nome: 'Relogio', preco: 158, imagem: "https://images-americanas.b2w.io/produtos/01/00/sku/41940/8/41940837_1GG.jpg"},
-    {nome: 'Micro-ondas', preco: 349, imagem: "https://images-americanas.b2w.io/produtos/01/00/oferta/47165/1/47165105_1GG.jpg"},
-    {nome: 'Smart TV', preco: 1300, imagem: "https://images-americanas.b2w.io/produtos/01/00/item/133869/3/133869367_1GG.jpg"},
-    {nome: 'Cafeteira', preco: 309, imagem: "https://images-americanas.b2w.io/produtos/01/00/item/130321/1/130321195_1GG.jpg"},
-    {nome: 'Bandeja', preco: 16, imagem: "https://images-americanas.b2w.io/produtos/01/00/oferta/16021/1/16021131_1GG.jpg"}
+    {nome: 'Advanced JavaScript Concepts', preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/1501104_967d_11.jpg"},
+    {nome: 'JavaScript - DOMinator project apply JavaScript learn DOM ', preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/2221678_c29f.jpg"},
+    {nome: 'Build a Realtime App with React Hooks and GraphQL', preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/2222648_8512.jpg"},
+    {nome: 'Learn and Understand Angular and NodeJS- A Developers Course ', preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/2195180_101f_2.jpg"},
+    {nome: 'From A Non Programmer To Full Stack .NET Developer ', preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/2020464_1dca.jpg"},
+    {nome: 'Code with Node: Learn by Doing' , preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/2215346_28a6_2.jpg"},
+    {nome: 'React Hooks Tutorial - Master React Hooks Development ', preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/2227364_2d77.jpg"},
+    {nome: 'Mastering Django Part 1 - AJAX, Class Based Views, Forms ', preco: 23.99, imagem: "https://udemy-images.udemy.com/course/240x135/2222446_c673.jpg"}
 ];
 
 class BancoDeDados {

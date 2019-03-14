@@ -11,13 +11,13 @@ class BarraDeBusca extends Component {
   render() {
     return (
       <Navbar bg="light" fixed="top">
-        <Navbar.Brand>Facisa Store</Navbar.Brand>
+        <Navbar.Brand>Cursos Store</Navbar.Brand>
         <Nav>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <React.Fragment>
               <Form inline>
-                <FormControl type="text" placeholder="Procurar" className="mr-sm-2" 
+                <FormControl type="text" placeholder="Procure seu Curso aqui" className="mr-sm-2" 
                   onChange={(event) => this.context.buscar(event.target.value)} />
               </Form>
               { (this.context.state.carrinho.length <= 0) ? '' : (
