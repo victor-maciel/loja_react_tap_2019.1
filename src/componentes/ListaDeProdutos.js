@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
-import BancoDeDados from './bd/BancoDeDados';
-import { Link } from 'react-router-dom';
+import {LojaContext} from '../context/LojaContext';
+import ItemProduto from './ItemProduto';
+import Toolkit from '../util/Toolkit';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
+const PRODUTOS_POR_LINHA = 4;
 
 class ListaDeProdutos extends Component {
-  renderProduto(p) {
+  renderProduto = (linha) => {
     return (
-      <li>
-        <Link to={'/produtos/' + p.id}>
-          {p.nome} - R${p.preco.toFixed(2)}
-          </Link>
-      </li> 
+      <Row>
+        {linha.map((p) => (<ItemProduto produto={p} />))}
+      </Row>
     );
   }
   
   render() {
     return (
-      <>
-        <h3>Lista de Produtos</h3>
-        <ul>
-          {BancoDeDados.getProdutos().map(this.renderProduto)}
-        </ul>
-      </>
+      <Container>
+        {Toolkit.splitArray(this.context.state.produtos, PRODUTOS_POR_LINHA).map(this.renderProduto)}
+      </Container>
     );
   }
 }
 
+ListaDeProdutos.contextType = LojaContext;
 
 export default ListaDeProdutos;
