@@ -7,6 +7,8 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Registro from './Registro';
 import Login from './Login';
 import Loja from './Loja';
+import Principal from './Principal';
+
 
 
 class App extends Component {

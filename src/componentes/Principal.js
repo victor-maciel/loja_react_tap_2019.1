@@ -1,7 +1,7 @@
-import React, {Component } from 'react';
+import React, { Component } from 'react';
 
 class Principal extends Component {
-    render(){
+    render() {
         return (<h3>Pagina Principal</h3>);
     }
 }
