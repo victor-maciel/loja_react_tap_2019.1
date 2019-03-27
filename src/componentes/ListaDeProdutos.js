@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 const PRODUTOS_POR_LINHA = 4;
-
 class ListaDeProdutos extends Component {
   renderProduto = (linha) => {
     return (

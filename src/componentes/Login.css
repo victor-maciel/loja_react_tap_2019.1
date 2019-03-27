@@ -1,20 +1,16 @@
-@media all and (min-width: 240px) {
-    .Login {
-      padding: 40px 0;
-    }
-  
-    .Login form {
-      margin: 0 auto;
-      max-width: 320px;
-    }
+.form-signin {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    margin: auto;
+  }
 
-    #divCenter { 
-      background-color: #a09b9b; 
-      width: 400px; 
-      height: 150px; 
-      left: 50%; 
-      margin: -130px 0 0 -210px; 
-      padding:10px;
-      position: absolute; 
-      top: 50%; }
+.form{
+    display: block;
 }
+
+html, body {
+    height: 100%; 
+
+}
+
